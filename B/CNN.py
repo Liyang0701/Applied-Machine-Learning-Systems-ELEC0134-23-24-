@@ -7,7 +7,6 @@ from tensorflow.keras.layers import Dense, Conv2D, MaxPool2D, Flatten
 from tensorflow.keras import optimizers, losses
 from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.optimizers.legacy import Adam
-import matplotlib.pyplot as plt
 
 def CNNRun():
     # Load the dataset
