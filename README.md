@@ -1,6 +1,7 @@
 # Applied-Machine-Learning-Systems-ELEC0134-23-24-
 
-#This is coursework that is divided into binary classification task A and multi-class(9 classes) classification task B.
+#This is coursework that is divided into binary classification task A and multi-class(9 classes) classification task B. Run main.py can run the four models in folder A and B
+
 
 # SVM, Logistic Regression for task A and CNNs, RandomForest for task B
 
