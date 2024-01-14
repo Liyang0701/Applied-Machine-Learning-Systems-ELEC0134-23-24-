@@ -5,8 +5,8 @@
 # SVM, Logistic Regression for task A and CNNs, RandomForest for task B
 
 # Include libraries:
-sklearn.model_selection 
-numpy 
+sklearn.model_selection\n 
+numpy\n
 sklearn.svm 
 sklearn.metrics 
 sklearn.preprocessing
