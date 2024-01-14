@@ -85,33 +85,6 @@ def SVMRun():
     print(f"\nTest Accuracy with Best Parameters: {test_accuracy}")
     print(f"Test Classification Report:\n{test_report}")
     print(f"\nConfusion Matrix:\n{conf_matrix}")
-    
-    '''
-    import matplotlib.pyplot as plt
-
-    plt.figure(figsize=(10, 5))
-
-    # Plotting accuracy
-    plt.subplot(1, 2, 1)
-    plt.plot(Cs, accuracies, label='Validation Accuracy')
-    plt.xscale('log')
-    plt.xlabel('C Value')
-    plt.ylabel('Accuracy')
-    plt.title('SVM Accuracy vs C')
-    plt.legend()
-
-    # Plotting ROC-AUC
-    plt.subplot(1, 2, 2)
-    plt.plot(Cs, roc_aucs, label='Validation ROC-AUC')
-    plt.xscale('log')
-    plt.xlabel('C Value')
-    plt.ylabel('ROC-AUC')
-    plt.title('SVM ROC-AUC vs C')
-    plt.legend()
-
-    plt.tight_layout()
-    plt.show()
-    '''
 
 def Runall():
     SVMRun()
